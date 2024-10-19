@@ -1,6 +1,7 @@
-Задание 31. 
+Задание 31
 
-Given an array of numbers (in string format), you must return a string. The numbers correspond to the letters of the alphabet in reverse order: a=26, z=1 etc. You should also account for '!', '?' and ' ' that are represented by '27', '28' and '29' respectively.
+Move every letter in the provided string forward 10 letters through the alphabet.
 
-All inputs will be valid.
+If it goes past 'z', start again at 'a'.
 
+Input will be a string with length > 0.
